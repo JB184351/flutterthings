@@ -1,0 +1,10 @@
+// Input/Output
+import 'dart:io';
+
+var askForUserName = "What is your name?";
+
+String? name = stdin.readLineSync();
+
+var welcomeUserMessage = "One for $name, one for me."
+
+print(welcomeUserMessage);
