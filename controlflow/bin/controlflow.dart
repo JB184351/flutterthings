@@ -48,9 +48,45 @@ void main(List<String> arguments) {
       digitsAdded += numToBeAdded;
   }
 
-  if (digitsAdded == armstrongNum ) {
+  if (digitsAdded == armstrongNum) {
     print("$armstrongNum is an armstrong number");
   } else {
     print("$armstrongNum is not an armstrong number");
+  }
+
+  // Palindrone
+  var astring = "racecar";
+
+  var reveredString = "";
+
+  var count = astring.length;
+
+  while (count != 0) {
+    reveredString += astring[count - 1];
+    count -= 1;
+  }
+
+  if (astring == reveredString) {
+    print("$astring is a palindrone");
+  } else {
+    print("$astring is not a palindrone");
+  }
+
+  // FizzBuzz
+
+  var oneHundred = 100;
+
+  for (int i = 0; i < oneHundred; i++) {
+      var num = i + 1;
+
+      if (num % 3 == 0 && num % 5 == 0) {
+        print("FizzBuzz");
+      } else if (num % 3 == 0) {
+        print("Fizz");
+      } else if (num % 5 == 0) {
+        print("Buzz");
+      } else {
+        print("$num");
+      }
   }
 }
