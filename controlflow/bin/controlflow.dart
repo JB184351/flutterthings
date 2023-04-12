@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:io';
 import 'dart:math';
 
@@ -70,6 +71,17 @@ void main(List<String> arguments) {
     print("$astring is a palindrone");
   } else {
     print("$astring is not a palindrone");
+  }
+
+  // What Datatype
+  int number = 3;
+
+  if (number is int) {
+    print("Variable $number is an integer");
+  } else if (number is String) {
+    print("Variable $number is a string");
+  } else {
+    print("Variable $number is some other data type");
   }
 
   // FizzBuzz
