@@ -13,28 +13,28 @@ List<Map<String, dynamic>> quiz() {
   {
     'question': question1,
     'answers': [
-      {'text':'A: $quesetionOneChoiceA', 'correct': false},
-      {'text':'B: $answerTextQuestionOneOptionB', 'correct': true},
-      {'text': 'C: $answerTextQuestionOneOptionC', 'correct': false},
-      {'text': 'D: George', 'correct': false},
+      {'text': '$quesetionOneChoiceA', 'correct': false},
+      {'text':'$answerTextQuestionOneOptionB', 'correct': true},
+      {'text': '$answerTextQuestionOneOptionC', 'correct': false},
+      {'text': 'George', 'correct': false},
     ],
   },
   {
     'question': question2,
     'answers': [
-      {'text': 'A: Observation, Conquerors, Air', 'correct': false},
-      {'text': 'B: Armanent, Observation, Conquerors', 'correct': true},
-      {'text': 'C: King, Food, Water', 'correct': false},
-      {'text': 'D: Skin, Blood, Devil Fruit', 'correct': false},
+      {'text': 'Observation, Conquerors, Air', 'correct': false},
+      {'text': 'Armanent, Observation, Conquerors', 'correct': true},
+      {'text': 'King, Food, Water', 'correct': false},
+      {'text': 'Skin, Blood, Devil Fruit', 'correct': false},
     ],
   },
   {
     'question': question3,
     'answers': [
-      {'text': 'A: 2', 'correct': false},
-      {'text': 'B: 5', 'correct': false},
-      {'text': 'C: 3', 'correct': true},
-      {'text': 'D: 4', 'corrext': false},
+      {'text': '2', 'correct': false},
+      {'text': '5', 'correct': false},
+      {'text': '3', 'correct': true},
+      {'text': '4', 'corrext': false},
     ],
   },
 ];
